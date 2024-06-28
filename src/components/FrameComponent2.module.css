@@ -1,0 +1,45 @@
+.frameChild {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  border-radius: var(--br-8xs);
+  width: 188px;
+  height: 188px;
+  object-fit: contain;
+  z-index: 1;
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 180px;
+  width: 32px;
+  height: 32px;
+  z-index: 2;
+}
+.rectangleParent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 16px;
+  width: 212px;
+}
+.colors {
+  position: absolute;
+  top: 184px;
+  left: 0;
+  line-height: 16px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 39px;
+  z-index: 2;
+}
+.frameParent {
+  align-self: stretch;
+  height: 212px;
+  position: relative;
+  text-align: left;
+  font-size: var(--body-texts-text-1-size);
+  color: var(--color-text-text);
+  font-family: var(--body-texts-text-1);
+}

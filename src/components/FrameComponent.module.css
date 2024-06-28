@@ -1,0 +1,209 @@
+.logoIcon {
+  height: 48px;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.allCategories1 {
+  text-decoration: none;
+  position: relative;
+  line-height: 16px;
+  color: inherit;
+  display: inline-block;
+  min-width: 82px;
+}
+.expandDownLightIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  min-height: 16px;
+}
+.allCategories {
+  border-radius: var(--br-31xl);
+  background-color: var(--base-gray-background);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-5xl);
+  gap: var(--gap-5xs);
+  white-space: nowrap;
+}
+.searchAnything {
+  align-self: stretch;
+  position: relative;
+  line-height: 16px;
+  white-space: nowrap;
+}
+.searchInput {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--color-text-subtext);
+}
+.searchAltDuotoneLineIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.containersearch,
+.searchIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.containersearch {
+  flex: 1;
+  border-radius: var(--br-31xl);
+  background-color: var(--main-white);
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  max-width: 100%;
+  z-index: 1;
+}
+.help1 {
+  text-decoration: none;
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 28px;
+}
+.help,
+.helpDropdown {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.help {
+  border-radius: var(--br-31xl);
+  background-color: var(--main-primary);
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-11xl);
+  z-index: 1;
+}
+.helpDropdown {
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--main-primary);
+  width: 100%;
+  height: 100%;
+}
+.accountInitial {
+  text-decoration: none;
+  position: absolute;
+  top: 4px;
+  left: 6px;
+  line-height: 16px;
+  color: inherit;
+  display: inline-block;
+  min-width: 12px;
+  z-index: 1;
+}
+.ellipseParent {
+  height: 24px;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.accountIcon {
+  width: 132px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-35xl);
+  box-sizing: border-box;
+}
+.userIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.account1 {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+  display: inline-block;
+  min-width: 59px;
+}
+.account {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.bagAltIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.shoping {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+  display: inline-block;
+  min-width: 58px;
+}
+.shopaccount,
+.shopping {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.shopaccount {
+  gap: var(--gap-5xl);
+  z-index: 1;
+  font-size: var(--body-texts-text-6-size);
+  color: var(--color-text-text);
+}
+.accountDropdown,
+.logoParent,
+.userActions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.logoParent,
+.userActions {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-lgi);
+  color: var(--main-white);
+}
+.logoParent {
+  width: 1320px;
+  align-items: flex-end;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-texts-text-1-size);
+  color: var(--color-text-text);
+  font-family: var(--body-texts-text-1);
+}

@@ -1,0 +1,41 @@
+.unsplashmoIfFkckIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.clothingShoes {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  z-index: 1;
+}
+.imageSlider,
+.unsplashmoIfFkckParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.unsplashmoIfFkckParent {
+  flex: 1;
+  padding: var(--padding-125xl) var(--padding-base) var(--padding-base);
+  position: relative;
+}
+.imageSlider {
+  align-self: stretch;
+  padding: 0 var(--padding-base);
+  text-align: left;
+  font-size: var(--heading-title-text-2-size);
+  color: var(--main-white);
+  font-family: var(--body-texts-text-1);
+}

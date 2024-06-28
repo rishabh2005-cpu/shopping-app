@@ -1,0 +1,308 @@
+.cardBackground {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-honeydew);
+}
+.cardContentChild {
+  margin-top: -40px;
+  margin-right: -40px;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  flex-shrink: 0;
+}
+.colorSwatchIcon {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  object-fit: cover;
+}
+.colors1 {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 39px;
+}
+.frameChild,
+.frameItem {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-yellowgreen);
+}
+.frameItem {
+  background-color: var(--color-cadetblue);
+}
+.ellipseDiv,
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.frameInner {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-mediumseagreen);
+}
+.ellipseDiv,
+.frameChild1,
+.frameChild2,
+.frameChild3 {
+  background-color: var(--color-royalblue);
+}
+.frameChild1,
+.frameChild2,
+.frameChild3 {
+  background-color: var(--color-crimson);
+}
+.frameChild2,
+.frameChild3 {
+  background-color: var(--color-blueviolet);
+}
+.frameChild3 {
+  background-color: var(--color-sandybrown);
+}
+.ellipseParent {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.cardContent,
+.colorPicker,
+.colors,
+.ellipseParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.colors {
+  margin: 0 !important;
+  position: absolute;
+  bottom: -32px;
+  left: -32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+  z-index: 1;
+}
+.cardContent,
+.colorPicker {
+  align-self: stretch;
+}
+.colorPicker {
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+}
+.cardContent {
+  height: 264px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.div,
+.vonnaNevaWalnut {
+  position: relative;
+  z-index: 1;
+}
+.vonnaNevaWalnut {
+  align-self: stretch;
+  line-height: 25px;
+}
+.div {
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 52px;
+  white-space: nowrap;
+}
+.productInfo,
+.productcard01 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productInfo {
+  align-self: stretch;
+  gap: var(--gap-20xl);
+  font-size: var(--body-texts-text-6-size);
+}
+.productcard01 {
+  flex: 1;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-5xl);
+  min-width: 284px;
+  max-width: 312px;
+  z-index: 1;
+}
+.rectangleDiv {
+  width: 312px;
+  height: 418px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-plum-100);
+  display: none;
+  z-index: 0;
+}
+.groupIcon,
+.rectangleIcon {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  margin: 0 !important;
+  top: 16px;
+  right: 16px;
+  z-index: 1;
+}
+.rectangleIcon {
+  height: 200px;
+  width: 200px;
+  top: -188px;
+  right: -193px;
+  border-radius: var(--br-8xs);
+  object-fit: cover;
+}
+.colors2 {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 39px;
+  z-index: 2;
+}
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameChild4,
+.frameChild5,
+.frameChild6 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-royalblue);
+}
+.frameChild5,
+.frameChild6 {
+  background-color: var(--color-crimson);
+}
+.frameChild6 {
+  background-color: var(--color-blueviolet);
+}
+.ellipseGroup,
+.frameContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ellipseGroup {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.frameContainer {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.nockeby3SeatSofa {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-texts-text-6-size);
+  line-height: 24px;
+  z-index: 1;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.div1 {
+  position: relative;
+  font-size: var(--body-texts-text-6-size);
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 59px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameParent,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-plum-100);
+  justify-content: flex-end;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 284px;
+  max-width: 312px;
+  min-height: 418px;
+  z-index: 1;
+}
+.productCards,
+.productGrid {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.productCards {
+  width: 1320px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.productGrid {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  margin-top: -172px;
+  text-align: left;
+  font-size: var(--body-texts-text-1-size);
+  color: var(--color-text-text);
+  font-family: var(--body-texts-text-1);
+}
+@media screen and (max-width: 450px) {
+  .productInfo {
+    gap: var(--gap-lgi);
+  }
+  .productcard01 {
+    padding-top: var(--padding-173xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

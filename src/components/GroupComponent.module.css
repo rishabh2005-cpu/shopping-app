@@ -1,0 +1,139 @@
+.frameChild {
+  width: 312px;
+  height: 418px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-bisque);
+  display: none;
+  z-index: 0;
+}
+.cardColorsChild,
+.frameItem {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  margin: 0 !important;
+  top: 16px;
+  right: 16px;
+  z-index: 1;
+}
+.cardColorsChild {
+  height: 200px;
+  width: 200px;
+  top: -188px;
+  right: -193px;
+  border-radius: var(--br-8xs);
+  object-fit: cover;
+}
+.colors {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 39px;
+  z-index: 2;
+}
+.cardColors {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.ellipseDiv,
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.frameInner {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-yellowgreen);
+}
+.ellipseDiv,
+.frameChild1,
+.frameChild2,
+.frameChild3 {
+  background-color: var(--color-royalblue);
+}
+.frameChild1,
+.frameChild2,
+.frameChild3 {
+  background-color: var(--color-crimson);
+}
+.frameChild2,
+.frameChild3 {
+  background-color: var(--color-blueviolet);
+}
+.frameChild3 {
+  background-color: var(--color-sandybrown);
+}
+.cardDetails,
+.ellipseParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ellipseParent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.cardDetails {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.woodLampFloor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-texts-text-6-size);
+  line-height: 24px;
+  z-index: 1;
+}
+.cardElements {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.emptyDescription {
+  position: relative;
+  font-size: var(--body-texts-text-6-size);
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 61px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.cardElementsParent,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cardElementsParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-bisque);
+  justify-content: flex-end;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 284px;
+  max-width: 312px;
+  min-height: 418px;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--body-texts-text-1-size);
+  color: var(--color-text-text);
+  font-family: var(--body-texts-text-1);
+}

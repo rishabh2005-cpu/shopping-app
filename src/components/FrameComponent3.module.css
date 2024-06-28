@@ -1,0 +1,79 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  width: 100%;
+  height: 100%;
+}
+.frameChild {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  background-color: var(--main-white);
+}
+.frameItem {
+  object-fit: cover;
+  display: none;
+}
+.frameInner {
+  position: absolute;
+  top: 8px;
+  left: 139px;
+  width: 32px;
+  height: 32px;
+  z-index: 2;
+}
+.rectangleGroup {
+  position: absolute;
+  width: calc(100% - 16px);
+  top: 8px;
+  right: 8px;
+  left: 8px;
+  border-radius: var(--br-8xs);
+  height: 184px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.rectangleParent {
+  width: 195px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -102px;
+  bottom: 0;
+}
+.div,
+.womensCognacLeather {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.womensCognacLeather {
+  width: 177px;
+  line-height: 16px;
+}
+.div {
+  font-size: var(--body-texts-text-6-size);
+  line-height: 18px;
+  font-weight: 500;
+  min-width: 52px;
+  white-space: nowrap;
+}
+.frameParent {
+  width: 93px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-189xl) var(--padding-3xs) var(--padding-base);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--body-texts-text-1-size);
+  color: var(--color-text-text);
+  font-family: var(--body-texts-text-1);
+}

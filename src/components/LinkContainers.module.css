@@ -1,0 +1,53 @@
+.linkBackgroundsIcon,
+.linkElementsChild {
+  position: relative;
+  border-radius: var(--br-8xs);
+}
+.linkElementsChild {
+  height: 144px;
+  width: 144px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  background-color: var(--main-white);
+  display: none;
+}
+.linkBackgroundsIcon {
+  height: 128px;
+  width: 128px;
+  object-fit: cover;
+  z-index: 1;
+}
+.linkElements {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  border-radius: var(--br-8xs);
+  background-color: var(--main-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.craftKits {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 65px;
+}
+.linkContainers,
+.linkLabels {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.linkLabels {
+  flex-direction: row;
+  padding: 0 var(--padding-21xl) 0 var(--padding-20xl);
+}
+.linkContainers {
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--body-texts-text-6-size);
+  color: var(--color-text-text);
+  font-family: var(--body-texts-text-1);
+}

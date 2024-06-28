@@ -1,0 +1,358 @@
+.logoIcon {
+  align-self: stretch;
+  height: 48px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cricklewoodlondon,
+.nw26qgUk {
+  margin: 0;
+}
+.cricklewoodlondonNw26qgContainer {
+  position: relative;
+  line-height: 24px;
+}
+.dribbbleIcon,
+.facebookIcon,
+.linkedinIcon,
+.twitterIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  min-height: 32px;
+}
+.footerContent,
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.footerContent {
+  width: 200px;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.shop {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 42px;
+}
+.giftCards,
+.login,
+.polkaBlog,
+.signIn,
+.siteMap {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 68px;
+}
+.login,
+.polkaBlog,
+.signIn,
+.siteMap {
+  min-width: 63px;
+}
+.login,
+.polkaBlog,
+.signIn {
+  min-width: 73px;
+}
+.login,
+.signIn {
+  min-width: 37px;
+}
+.signIn {
+  min-width: 47px;
+}
+.aboutShopLinks,
+.cardsPolicyLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardsPolicyLinks {
+  gap: var(--gap-xs);
+  font-size: var(--body-texts-text-6-size);
+  color: var(--color-text-paragraph);
+}
+.aboutShopLinks {
+  padding: 0 var(--padding-sm) 0 0;
+  gap: var(--gap-5xl);
+}
+.sell {
+  position: relative;
+  line-height: 21px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 29px;
+}
+.affiliates,
+.forums,
+.sellOnPolka,
+.teams {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 87px;
+}
+.affiliates,
+.forums,
+.teams {
+  min-width: 48px;
+}
+.affiliates,
+.forums {
+  min-width: 52px;
+}
+.affiliates {
+  min-width: 60px;
+}
+.sellOptions,
+.sellWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sellOptions {
+  gap: var(--gap-xs);
+  font-size: var(--body-texts-text-6-size);
+  color: var(--color-text-paragraph);
+}
+.sellWrapper {
+  gap: var(--gap-4xl);
+}
+.about {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 49px;
+}
+.careers,
+.investors,
+.policies,
+.polkaInc,
+.press {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 68px;
+}
+.careers,
+.investors,
+.policies,
+.press {
+  min-width: 52px;
+}
+.careers,
+.investors,
+.press {
+  min-width: 63px;
+}
+.careers,
+.press {
+  min-width: 56px;
+}
+.press {
+  min-width: 37px;
+}
+.aboutShopLinks1,
+.polkaIncParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.polkaIncParent {
+  gap: var(--gap-xs);
+  font-size: var(--body-texts-text-6-size);
+  color: var(--color-text-paragraph);
+}
+.aboutShopLinks1 {
+  padding: 0 var(--padding-lgi) 0 0;
+  gap: var(--gap-5xl);
+}
+.help {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 37px;
+}
+.helpCenter,
+.privacySettings,
+.trustAndSafety {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 83px;
+}
+.privacySettings,
+.trustAndSafety {
+  min-width: 113px;
+}
+.privacySettings {
+  min-width: 110px;
+}
+.helpOptions,
+.helpWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.helpOptions {
+  gap: var(--gap-xs);
+  font-size: var(--body-texts-text-6-size);
+  color: var(--color-text-paragraph);
+}
+.helpWrapper {
+  gap: var(--gap-5xl);
+}
+.footerLinks,
+.footerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footerLinks {
+  justify-content: flex-start;
+  gap: var(--gap-118xl);
+  font-size: var(--heading-title-text-2-size);
+}
+.footerWrapper {
+  width: 1233px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.commerceInc {
+  position: relative;
+  line-height: 24px;
+}
+.privacyPolicy {
+  flex: 1;
+  min-width: 62px;
+}
+.cookies,
+.privacyPolicy,
+.termsOfUse {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+}
+.termsOfUse {
+  flex: 1;
+  color: var(--main-third);
+  min-width: 58px;
+}
+.cookies {
+  min-width: 56px;
+}
+.legalLinks {
+  width: 487px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-130xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.scrollToTop {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 72px;
+}
+.arrowTopIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  min-height: 16px;
+}
+.scrollTopContent,
+.scrollTopWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.scrollTopContent {
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.scrollTopWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  font-size: var(--body-texts-text-1-size);
+}
+.legal {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.footer,
+.footer1,
+.legal {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footer1 {
+  width: 1320px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.footer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--body-texts-text-6-size);
+  color: var(--color-text-text);
+  font-family: var(--body-texts-text-1);
+}
+@media screen and (max-width: 1200px) {
+  .footerWrapper,
+  .legal {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .footerLinks {
+    flex-wrap: wrap;
+    gap: var(--gap-49xl);
+  }
+  .legalLinks {
+    gap: var(--gap-5xl);
+    padding-right: var(--padding-55xl);
+    box-sizing: border-box;
+  }
+  .footer1 {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .footerLinks {
+    gap: var(--gap-15xl);
+  }
+  .legalLinks {
+    flex-wrap: wrap;
+  }
+}
