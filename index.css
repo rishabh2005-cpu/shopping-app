@@ -1081,7 +1081,7 @@
   width: 217px;
   height: 130px;
   position: relative;
-  backdrop-filter: blur(7px);
+ -webkit-backdrop-filter: blur(7px);
   background-color: var(--color-white);
   display: none;
 }
@@ -1130,7 +1130,7 @@
 }
 .text {
   width: 217px;
-  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
   background-color: var(--color-white);
   display: flex;
   flex-direction: column;
