@@ -1936,7 +1936,7 @@
   padding: var(--padding-14xl) var(--padding-20xl) var(--padding-11xl)
     var(--padding-25xl);
   box-sizing: border-box;
-  gap: 67px;
+  gap: var(--gap-48xl);
   min-width: 741px;
   z-index: 7;
   text-align: center;
@@ -4116,7 +4116,7 @@
     box-sizing: border-box;
   }
   .frame-parent16 {
-    gap: 46px;
+    gap: var(--gap-27xl);
   }
   .point-list1 {
     padding-top: 74px;
