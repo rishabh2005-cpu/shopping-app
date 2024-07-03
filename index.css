@@ -7,7 +7,7 @@
   font-family: inherit;
   white-space: nowrap;
 }
-.fasco-wrapper {
+.nepomart-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -3489,7 +3489,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   z-index: 1;
-}
+}   
 .you-wont-regret {
   margin: 0;
   align-self: stretch;
@@ -3854,7 +3854,7 @@
   position: relative;
   display: inline-block;
 }
-.fasco1 {
+.nepomart1 {
   margin: 0;
   font-size: inherit;
   line-height: 100%;
@@ -4227,7 +4227,7 @@
   .new-arrivals-header {
     gap: var(--gap-6xl);
   }
-  .fasco1 {
+  .nepomart1 {
     font-size: var(--font-size-7xl);
     line-height: 26px;
   }
@@ -4492,7 +4492,7 @@
   .subscribe-to-our {
     font-size: var(--font-size-9xl);
   }
-  .fasco1 {
+  .nepomart1 {
     font-size: var(--font-size-lgi);
     line-height: 19px;
   }

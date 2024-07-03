@@ -5,7 +5,7 @@
   object-fit: cover;
   max-width: 100%;
 }
-.fasco17 {
+.nepomart17 {
   position: relative;
   line-height: 67px;
   color: var(--color-darkslategray-100);
@@ -149,7 +149,7 @@
   flex-shrink: 0;
   font-size: var(--font-size-11xl);
 }
-.fasco-terms3 {
+.nepomart-terms3 {
   position: relative;
   line-height: 40px;
 }
