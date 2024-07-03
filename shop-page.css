@@ -3535,7 +3535,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0 0 126px;
+  padding: 0 0 var(--padding-107xl);
   row-gap: 20px;
 }
 .image-2-icon3 {
@@ -3913,7 +3913,7 @@
     min-width: 100%;
   }
   .content2 {
-    gap: 49px;
+    gap: var(--gap-30xl);
   }
   .point19 {
     flex-wrap: wrap;

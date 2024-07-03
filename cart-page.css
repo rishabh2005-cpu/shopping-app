@@ -157,7 +157,7 @@
   width: 24px;
   position: relative;
   border-radius: 50%;
-  background-color: #ff0606;
+  background-color: var(--color-red);
   z-index: 1;
 }
 .a {

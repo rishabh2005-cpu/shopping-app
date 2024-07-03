@@ -3328,7 +3328,7 @@
     min-width: 100%;
   }
   .media-gallery-parent {
-    gap: 32px;
+    gap: var(--gap-13xl);
   }
   .peaky-blinders1 {
     font-size: var(--font-size-18xl);
