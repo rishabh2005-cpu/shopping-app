@@ -1,8 +1,8 @@
-.fasco2,
+nepomart2,
 .home1 {
   position: relative;
 }
-.fasco2 {
+.nepomart2 {
   margin: 0;
   font-size: inherit;
   line-height: 100%;
@@ -183,7 +183,7 @@
   gap: var(--gap-xl);
 }
 .content,
-.fasco-parent {
+.nepomart-parent {
   width: 160px;
   display: flex;
   flex-direction: column;
@@ -192,7 +192,7 @@
   padding: var(--padding-base) 0 0;
   box-sizing: border-box;
 }
-.fasco-parent {
+.nepomart-parent {
   width: 1295px;
   flex-direction: row;
   justify-content: space-between;
@@ -415,12 +415,12 @@
   min-width: 581px;
   max-width: 100%;
 }
-.fasco3,
+.nepomart3,
 .heading-1 {
   position: relative;
   z-index: 1;
 }
-.fasco3 {
+.nepomart3 {
   line-height: 20px;
   text-transform: uppercase;
   display: inline-block;
@@ -1437,7 +1437,7 @@
   padding: 0 var(--padding-12xs);
   box-sizing: border-box;
   height: 20px;
-}
+} 
 .svg-frame {
   flex-direction: column;
   justify-content: flex-end;
@@ -3111,7 +3111,7 @@
   gap: var(--gap-10xl);
   max-width: 100%;
 }
-.fasco4 {
+.nepomart4 {
   margin: 0;
   position: relative;
   font-size: inherit;
@@ -3167,7 +3167,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
-.fasco-group,
+.nepomart-group,
 .footer-navigation1 {
   display: flex;
   align-items: flex-start;
@@ -3182,7 +3182,7 @@
   font-size: var(--font-size-base);
   font-family: var(--font-poppins);
 }
-.fasco-group {
+.nepomart-group {
   align-self: stretch;
   flex-direction: row;
   justify-content: space-between;
@@ -3375,11 +3375,11 @@
     box-sizing: border-box;
     min-width: 100%;
   }
-  .fasco4 {
+  .nepomart4 {
     font-size: var(--font-size-7xl);
     line-height: 26px;
   }
-  .fasco-group {
+  .nepomart-group {
     flex-wrap: wrap;
   }
   .footer-content {
@@ -3509,7 +3509,7 @@
   .subscribe-to-our1 {
     font-size: var(--font-size-9xl);
   }
-  .fasco4 {
+  .nepomart4 {
     font-size: var(--font-size-lgi);
     line-height: 19px;
   }
