@@ -1,9 +1,11 @@
-.signup-rect-icon {
+signup-rect-icon {
   width: 949px;
   position: relative;
   max-height: 100%;
   object-fit: cover;
-  max-width: 100%;nepomart14 {
+  max-width: 100%;
+}
+.nepomart14 {
   position: relative;
   line-height: 67px;
   color: var(--color-darkslategray-100);
@@ -593,7 +595,7 @@
   .frame-parent42 {
     gap: var(--gap-14xl);
   }
-  .fascnepomart-parent6 {
+  .nepomart-parent6 {
     gap: var(--gap-22xl);
   }
   .signup-inner {
@@ -632,5 +634,4 @@
   .signup1 {
     gap: var(--gap-4xl);
   }
-}
 }
