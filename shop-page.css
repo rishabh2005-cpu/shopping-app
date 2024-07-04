@@ -1,3 +1,7 @@
+html,body{
+        min-width: 100%;
+        min-height: 100%; ;
+}
 .nepomart8 {
   margin: 0;
   position: relative;
