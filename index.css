@@ -15,7 +15,7 @@
   padding: var(--padding-11xs) 0 0;
 }
 .home {
-  text-decoration: none;
+  text-decoration: underline;
   position: relative;
   color: inherit;
   display: inline-block;
@@ -107,6 +107,10 @@
   display: inline-block;
   min-width: 61px;
   z-index: 1;
+}
+.signup,a{
+  color: white;
+  text-decoration: none;
 }
 .button,
 .frame-header,

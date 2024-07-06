@@ -42,6 +42,7 @@ signup-rect-icon {
   justify-content: flex-start;
   padding: var(--padding-11xs) 0 0;
 }
+
 .sign-up-with {
   position: relative;
   font-size: var(--font-size-base);
