@@ -104,7 +104,7 @@
 }
 .frame-parent45,
 .rectangle-parent10,
-.sign-in-to-fasco-parent {
+.sign-in-to-nepomart-parent {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -119,11 +119,11 @@
   gap: var(--gap-smi);
 }
 .frame-parent45,
-.sign-in-to-fasco-parent {
+.sign-in-to-nepomart-parent {
   align-self: stretch;
   gap: var(--gap-45xl);
 }
-.sign-in-to-fasco-parent {
+.sign-in-to-nepomart-parent {
   flex-direction: column;
   gap: var(--gap-10xl);
 }
@@ -213,11 +213,20 @@
   gap: var(--gap-6xs);
 }
 .password1 {
+  width: 135px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 40px;
   position: relative;
   letter-spacing: 0.08em;
   line-height: 40px;
+  color: var(--color-darkgray-100);
+  text-align: left;
   display: inline-block;
-  min-width: 88px;
+  padding: 0;
 }
 .frame-child29 {
   align-self: stretch;

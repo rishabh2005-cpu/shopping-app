@@ -186,14 +186,20 @@ signup-rect-icon {
   color: var(--color-gray-800);
 }
 .first-name2 {
-  position: relative;
+  width: 97px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
   font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 40px;
+  position: relative;
   letter-spacing: 0.08em;
   line-height: 40px;
   color: var(--color-darkgray-100);
   text-align: left;
   display: inline-block;
-  min-width: 98px;
+  padding: 0;
 }
 .name-inputs-child {
   align-self: stretch;
@@ -254,13 +260,20 @@ signup-rect-icon {
   gap: var(--gap-lg);
 }
 .email-address1 {
-  position: relative;
+  width: 97px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
   font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 40px;
+  position: relative;
   letter-spacing: 0.08em;
   line-height: 40px;
-  font-family: var(--font-poppins);
   color: var(--color-darkgray-100);
   text-align: left;
+  display: inline-block;
+  padding: 0;
 }
 .frame-child20 {
   align-self: stretch;
@@ -321,15 +334,20 @@ signup-rect-icon {
   gap: var(--gap-lg);
 }
 .password {
-  position: relative;
+  width: 167px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
   font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 40px;
+  position: relative;
   letter-spacing: 0.08em;
   line-height: 40px;
-  font-family: var(--font-poppins);
   color: var(--color-darkgray-100);
   text-align: left;
   display: inline-block;
-  min-width: 88px;
+  padding: 0;
 }
 .frame-child22 {
   align-self: stretch;
