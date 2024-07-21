@@ -458,6 +458,7 @@ signup-rect-icon {
 }
 .login {
   color: var(--color-cornflowerblue-100);
+  text-decoration: none;
 }
 .already-have-an-container {
   position: relative;
@@ -466,6 +467,7 @@ signup-rect-icon {
   line-height: 40px;
   font-family: var(--font-poppins);
   text-align: left;
+  
 }
 .login-button {
   align-self: stretch;

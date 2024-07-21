@@ -1,0 +1,26 @@
+[
+    {
+      "image": "image-1@2x.png",
+      "saleBanner": {
+        "label": "01",
+        "discount": "30% OFF",
+        "saleText": "Spring Sale"
+      }
+    },
+    {
+      "image": "image-2@2x.png",
+      "saleBanner": {
+        "label": "02",
+        "discount": "20% OFF",
+        "saleText": "Summer Sale"
+      }
+    },
+    {
+      "image": "image-3@2x.png",
+      "saleBanner": {
+        "label": "03",
+        "discount": "10% OFF",
+        "saleText": "Autumn Sale"
+      }
+    }
+  ]
